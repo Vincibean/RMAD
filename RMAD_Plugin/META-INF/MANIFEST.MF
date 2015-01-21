@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RMAD-Node extension for KNIME Workbench
+Bundle-SymbolicName: it.mad.ext.r;singleton:=true
+Bundle-Version: 0.0.0.0-good_copy_bundle-a
+Bundle-ClassPath: rmadcore.jar
+Bundle-Activator: it.mad.ext.r.RMADCoreNodePlugin
+Bundle-Vendor: Andre Bessi
+Require-Bundle: org.eclipse.core.runtime,
+ org.knime.workbench.core,
+ org.knime.workbench.repository,
+ org.knime.base,
+ org.eclipse.ui
+Bundle-ActivationPolicy: lazy
+Export-Package: it.mad.ext.r,
+ it.mad.ext.r.preferences
+

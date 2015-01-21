@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.0"?><plugin>
+   <extension point="org.knime.workbench.repository.nodes">
+      <node category-path="RMAD_Ext_Bundle.category" factory-class="it.mad.ext.r.RMAD_claraNodeFactory" id="it.mad.ext.r.RMAD_claraNodeFactory">
+      </node>
+   <node category-path="RMAD_Ext_Bundle.category" factory-class="it.mad.ext.r.RMAD_cluster_optimalNodeFactory" id="it.mad.ext.r.RMAD_cluster_optimalNodeFactory"/>
+<node category-path="RMAD_Ext_Bundle.category" factory-class="it.mad.ext.r.RMAD_emp2pvalNodeFactory" id="it.mad.ext.r.RMAD_emp2pvalNodeFactory"/>
+<node category-path="RMAD_Ext_Bundle.category" factory-class="it.mad.ext.r.RMAD_HDDCNodeFactory" id="it.mad.ext.r.RMAD_HDDCNodeFactory"/>
+<node category-path="RMAD_Ext_Bundle.category" factory-class="it.mad.ext.r.RMAD_MovMFNodeFactory" id="it.mad.ext.r.RMAD_MovMFNodeFactory"/>
+<node category-path="RMAD_Ext_Bundle.category" factory-class="it.mad.ext.r.RMAD_pmclustNodeFactory" id="it.mad.ext.r.RMAD_pmclustNodeFactory"/>
+<node category-path="RMAD_Ext_Bundle.category" factory-class="it.mad.ext.r.RMAD_ccfkmsNodeFactory" id="it.mad.ext.r.RMAD_ccfkmsNodeFactory"/>
+<node category-path="RMAD_Ext_Bundle.category" factory-class="it.mad.ext.r.RMAD_nnclusterNodeFactory" id="it.mad.ext.r.RMAD_nnclusterNodeFactory"/>
+<node category-path="RMAD_Ext_Bundle.category" factory-class="it.mad.ext.r.RMAD_bclustNodeFactory" id="it.mad.ext.r.RMAD_bclustNodeFactory"/>
+</extension>
+   <extension point="org.eclipse.ui.preferencePages">
+      <page category="org.knime.workbench.ui.preferences" class="it.mad.ext.r.preferences.RMADPreferencePage" id="it.mad.ext.r.preferences.RMADPreferencePage" name="R MAD">
+      </page>
+   </extension>
+   <extension point="org.eclipse.core.runtime.preferences">
+      <initializer class="it.mad.ext.r.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+   <extension point="org.knime.workbench.repository.categories">
+      <category icon="bin/it/mad/ext/r/default.png" level-id="RMAD_Ext_Bundle.category" name="R MAD" path="/">
+      </category>
+   </extension>
+</plugin>
