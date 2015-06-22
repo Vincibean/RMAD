@@ -28,27 +28,37 @@ bundle all the Java files needed for their proper functioning; they display a
 graphical interface through which users can set function parameters and
 eventually provide a view of the results.
 # Implemented Nodes
-# Bayesian Agglomerative Clustering: clusters data saved in a matrix using an
+# Bayesian Agglomerative Clustering: 
+clusters data saved in a matrix using an
 additive linear model with disappearing random effects. Has built-in spikeand-slab
 components which quantifies important variables for clustering.
-# Clara: computes a "clara" object, a list representing a clustering of the data
+# Clara: 
+computes a "clara" object, a list representing a clustering of the data
 into k clusters.
-# Cluster Mix: uses Markov chain Monte Carlo draws of indicator variables
+# Cluster Mix: 
+uses Markov chain Monte Carlo draws of indicator variables
 from a normal component mixture model to cluster observations based on
 a similarity matrix.
-# Cluster Optimal: searches for the optimal k-clustering of the dataset
+# Cluster Optimal: 
+searches for the optimal k-clustering of the dataset
 through a hypothesis test formulated as a model selection problem.
-# Conjugate Convex Functions: partitions a data set into convex sets using
+# Conjugate Convex Functions: 
+partitions a data set into convex sets using
 conjugate convex functions.
-# EPP to P-Value: converts the Empirical Posterior Probability (EPP) computed
+# EPP to P-Value: 
+converts the Empirical Posterior Probability (EPP) computed
 into a frequentist p-value, which can then be used to assess the significance
 of the alternative hypothesis.
-# High Dimensional Data Clustering: a model-based clustering method. It uses
+# High Dimensional Data Clustering: 
+a model-based clustering method. It uses
 the Expectation - Maximisation algorithm to estimate the parameters of
 the model.
-# Minimum Spanning Tree Clustering: builds a minimum spanning tree for each
+# Minimum Spanning Tree Clustering: 
+builds a minimum spanning tree for each
 cluster, stopping when the nearest-neighbour distance rises above a
 specified threshold. Returns a set of clusters and a set of outliers.
-# MovMF: Fit mixtures of von Mises-Fisher Distributions.
-# Parallel Model Based Clustering: uses model-based clustering (unsupervised)
+# MovMF: 
+Fit mixtures of von Mises-Fisher Distributions.
+# Parallel Model Based Clustering: 
+uses model-based clustering (unsupervised)
 for high dimensional and ultra large data, in a dis
