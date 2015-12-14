@@ -11,7 +11,7 @@ that the user can set thanks to an easy-to-use graphical interface, in accordanc
 with KNIME Visual Programming Language pattern; R MAD nodes will then take
 these parameters to elaborate the appropriate R code and process it thanks to a
 dedicated R binary executable.
-# R MAD Nodes Architecture
+## R MAD Nodes Architecture
 The R MAD Nodes’ architecture consists of four parts:
 1. R executable: a R binary executable, comprehensive of all necessary
 packages;
@@ -27,38 +27,38 @@ the specifically developed R MAD Preference Page.
 bundle all the Java files needed for their proper functioning; they display a
 graphical interface through which users can set function parameters and
 eventually provide a view of the results.
-# Implemented Nodes
-# Bayesian Agglomerative Clustering: 
+## Implemented Nodes
+### Bayesian Agglomerative Clustering: 
 clusters data saved in a matrix using an
 additive linear model with disappearing random effects. Has built-in spikeand-slab
 components which quantifies important variables for clustering.
-# Clara: 
+### Clara: 
 computes a "clara" object, a list representing a clustering of the data
 into k clusters.
-# Cluster Mix: 
+### Cluster Mix: 
 uses Markov chain Monte Carlo draws of indicator variables
 from a normal component mixture model to cluster observations based on
 a similarity matrix.
-# Cluster Optimal: 
+### Cluster Optimal: 
 searches for the optimal k-clustering of the dataset
 through a hypothesis test formulated as a model selection problem.
-# Conjugate Convex Functions: 
+### Conjugate Convex Functions: 
 partitions a data set into convex sets using
 conjugate convex functions.
-# EPP to P-Value: 
+### EPP to P-Value: 
 converts the Empirical Posterior Probability (EPP) computed
 into a frequentist p-value, which can then be used to assess the significance
 of the alternative hypothesis.
-# High Dimensional Data Clustering: 
+### High Dimensional Data Clustering: 
 a model-based clustering method. It uses
 the Expectation - Maximisation algorithm to estimate the parameters of
 the model.
-# Minimum Spanning Tree Clustering: 
+### Minimum Spanning Tree Clustering: 
 builds a minimum spanning tree for each
 cluster, stopping when the nearest-neighbour distance rises above a
 specified threshold. Returns a set of clusters and a set of outliers.
-# MovMF: 
+### MovMF: 
 Fit mixtures of von Mises-Fisher Distributions.
-# Parallel Model Based Clustering: 
+### Parallel Model Based Clustering: 
 uses model-based clustering (unsupervised)
 for high dimensional and ultra large data, in a dis
